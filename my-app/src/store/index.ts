@@ -1,6 +1,6 @@
 import Vue from 'vue'
 import Vuex from 'vuex'
-import { cloneDeep, isEqual } from 'lodash'
+import { cloneDeep } from 'lodash'
 import { formatData, getData, setNewAppealData, updateNewAppealData } from '@/utils/app_utils'
 import { tableHeadersData, didWindowFields, apartments_api } from '@/constants/project_constants'
 import {
